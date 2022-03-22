@@ -4,7 +4,133 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-position: top center 80px;
+  
 }
+
+
+.flex-container {  
+  margin-top: 80px;
+  margin-left: 250px;
+  margin-right: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.script {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.button{
+    margin-left: 20px;
+    text-decoration: none;
+    border: .3px solid #06365f;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:#1c5380;
+    color: white;
+    display: block;
+    width: 50px;
+    text-align: center;
+    
+}
+
+
+.text {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  padding-block: 30px;
+  padding-left: 40px;
+  padding-right: 70px;
+}
+
+h1 {
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #06365f;
+}
+
+p{ 
+  margin-bottom: 15px;
+  margin-top: 15px;
+  
+}
+
+.store{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .store img:first-child {
+    margin-right: 20px;
+  } 
+
+.container {
+  width: 100%;
+  max-width: 93.5rem;
+  margin: 3rem auto 0;
+}
+
+.wrap{
+    display: flex;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+  
+}
+
+footer {
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer .container {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 0;
+  text-decoration: none;
+
+}
+
+.footer-nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer-nav ul li {
+  margin-right: 10px;
+  margin-left: 10px;
+  color:gray;
+}
+
+.footer-nav ul li a {
+  color: #003569;
+}
+
+
